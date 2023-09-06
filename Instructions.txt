@@ -1,0 +1,9 @@
+0. Make sure your desired LAS file is in the same folder as the scripts. Must be named "TestFile" for now
+
+1. Open LAStoCSV.py to convert the LAS file to a CSV. There should be a new CSV file in the folder with the same name as the LAS file.
+	This was necessary because the lasio library does is not supported when converting .py to .exe. Can be worked around by manually manipulating the LAS file instead of using the lasio library
+
+2. Open StressView_v4.exe
+	The buttons to Reset and Save do not work when opening the .exe. Will look into it
+
+3. StressViewLogs_v4.exe is the fully functional interactive log output, StressViewLogs_v4.py is to view the calculations. 
